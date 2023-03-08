@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function(req, res) {
-    res.send("hello");
+    res.sendFile(__dirname+"/signup.html");
 });
 
 app.listen(3000, function() {
