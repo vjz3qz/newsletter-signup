@@ -19,12 +19,12 @@
   </head>
 
   <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" action="/" method="post">
       <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Please sign up for our Newsletter!</h1>
-      <input type="text" class="form-control top" placeholder="First Name" required autofocus>
-      <input type="text" class="form-control middle" placeholder="Last Name" required autofocus>
-      <input type="email" class="form-control bottom" placeholder="Email Address" required>
+      <input type="text" name="firstName" class="form-control top" placeholder="First Name" required autofocus>
+      <input type="text" name="lastName" class="form-control middle" placeholder="Last Name" required autofocus>
+      <input type="email" name="email" class="form-control bottom" placeholder="Email Address" required>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
     </form>
